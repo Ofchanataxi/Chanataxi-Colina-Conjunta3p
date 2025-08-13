@@ -1,0 +1,2 @@
+# Ignorar node_modules solo en backend
+backend/node_modules/
