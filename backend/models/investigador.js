@@ -3,8 +3,8 @@ import pool from '../config/db.js';
 class Investigador {
   constructor({ id, nombre, apellido, departamento, experiencia }) {
     this.id = id;
-    this.nombre = nombre;
-    this.apellido = apellido;
+    this.nombres = nombre;
+    this.apellidos = apellido;
     this.departamento = departamento;
     this.experiencia = experiencia;
   }
