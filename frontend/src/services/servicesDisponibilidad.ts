@@ -1,6 +1,6 @@
 import type { Disponibilidad } from "../types/Disponibilidad";
 
-const API_URL = "http://localhost:3000/api/disponibilidad";
+const API_URL = "http://localhost:3000/api/disponibilidades";
 
 export const getDisponibilidades = async (): Promise<Disponibilidad[]> => {
   const res = await fetch(API_URL);

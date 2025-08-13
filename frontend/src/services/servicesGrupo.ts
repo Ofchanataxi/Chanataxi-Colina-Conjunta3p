@@ -1,6 +1,6 @@
 import type { Grupo } from "../types/Grupo";
 
-const API_URL = "http://localhost:3000/api/grupo";
+const API_URL = "http://localhost:3000/api/grupos";
 
 export const getGrupos = async (): Promise<Grupo[]> => {
   const res = await fetch(API_URL);

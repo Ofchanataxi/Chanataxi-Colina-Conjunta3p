@@ -1,6 +1,6 @@
 import type { Linea } from "../types/Linea";
 
-const API_URL = "http://localhost:3000/api/linea";
+const API_URL = "http://localhost:3000/api/lineas-investigacion";
 
 export const getLineas = async (): Promise<Linea[]> => {
   const res = await fetch(API_URL);

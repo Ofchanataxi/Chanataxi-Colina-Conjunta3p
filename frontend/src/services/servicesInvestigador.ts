@@ -1,6 +1,6 @@
 import type { Investigador } from "../types/Investigador";
 
-const API_URL = "http://localhost:3000/api/investigador";
+const API_URL = "http://localhost:3000/api/investigadores";
 
 export const getInvestigadores = async (): Promise<Investigador[]> => {
   const res = await fetch(API_URL);
